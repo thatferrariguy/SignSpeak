@@ -1,4 +1,4 @@
-import pickle
+import joblib
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -23,6 +23,6 @@ score = accuracy_score(y_predict, y_test)
 
 print('{}% of samples were classified correctly !'.format(score * 100))
 
-f = open('model.p', 'wb')
-pickle.dump({'model': model}, f)
-f.close()
+
+joblib.dump(model_dict, "model.joblib")
+
