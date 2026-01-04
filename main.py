@@ -11,8 +11,8 @@ import time
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
-model_dict = joblib.load("model.joblib")
-model = model_dict['model']
+model = joblib.load("model.joblib")
+
 
 # Mediapipe setup
 mp_hands = mp.solutions.hands
