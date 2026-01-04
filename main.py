@@ -1,4 +1,4 @@
-import pickle
+import joblib
 import cv2
 import mediapipe as mp
 import numpy as np
@@ -11,7 +11,7 @@ import time
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
-model_dict = pickle.load(open('./model.p', 'rb'))
+model_dict = joblib.load("model.joblib")
 model = model_dict['model']
 
 # Mediapipe setup
