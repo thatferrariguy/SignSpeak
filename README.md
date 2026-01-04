@@ -40,6 +40,17 @@ The project primarily supports **static alphabet gestures**, along with control 
 
 ## **Usage**
 
+### Quick Start (For Evaluation)
+
+```bash
+git clone https://github.com/thatferrariguy/SignSpeak
+cd SignSpeak
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
+```
+
 ### **Option 1: Use the Pretrained Model**
 
 1. Clone the repository:
