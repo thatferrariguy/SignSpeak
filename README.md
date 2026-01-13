@@ -69,7 +69,7 @@ python main.py
    python main.py
    ```
 
-4. Ensure a working webcam and that the **model.p** file is present in the project directory.
+4. Ensure a working webcam and that the **model.joblib** file is present in the project directory.
 
 
 ---
