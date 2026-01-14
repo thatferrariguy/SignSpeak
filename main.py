@@ -14,7 +14,6 @@ warnings.filterwarnings("ignore", category=UserWarning)
 model_dict = pickle.load(open('./model.p', 'rb'))
 model = model_dict['model']
 
-
 # Mediapipe setup
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
