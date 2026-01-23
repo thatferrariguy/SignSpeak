@@ -43,7 +43,7 @@ The project primarily supports **static alphabet gestures**, along with control 
 ### Quick Start (For Evaluation)
 
 ```bash
-git clone https://github.com/thatferrariguy/SignSpeak
+git clone https://github.com/keshavravindran/SignSpeak
 cd SignSpeak
 python -m venv venv
 venv\Scripts\activate
